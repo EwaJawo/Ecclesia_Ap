@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "570650537550",
+    "project_id": "ecclesia-7c1a1",
+    "storage_bucket": "ecclesia-7c1a1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:570650537550:android:bbf3dbbdcc7a760b491d1f",
+        "android_client_info": {
+          "package_name": "com.example.ecclesia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "570650537550-01l5kf920urcl0dljgv58h19jisqdcj8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ecclesia",
+            "certificate_hash": "21b5f6eb36ea5de9948036a76746183b93dd9469"
+          }
+        },
+        {
+          "client_id": "570650537550-itav8gddcbl9av4qtrb3l53erm1htj8h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWKFhNUgyMYfmC6C3TjzBROkcAQBk0mCo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "570650537550-itav8gddcbl9av4qtrb3l53erm1htj8h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_gray">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="180dp"
+        android:layout_height="170dp"
+        android:src="@drawable/logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="40dp"
+        />
+
+    <Button
+        android:id="@+id/addMassIntention"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:backgroundTint="@color/navy"
+        android:textColor="@color/white"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/logo"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="85dp"
+        android:background="@drawable/book"/>
+
+    <Button
+        android:id="@+id/addAnnouncement"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:backgroundTint="@color/navy"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/logo"
+        android:textColor="@color/white"
+        android:layout_marginBottom="15dp"
+        android:layout_marginRight="85dp"
+        android:background="@drawable/notebook"/>
+
+    <Button
+        android:id="@+id/addEvent"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:backgroundTint="@color/navy"
+        android:textColor="@color/white"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/addAnnouncement"
+        android:layout_marginRight="85dp"
+        android:background="@drawable/settings"/>
+
+    <Button
+        android:id="@+id/btnSettings"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:backgroundTint="@color/navy"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/addMassIntention"
+        android:textColor="@color/white"
+        android:layout_marginLeft="85dp"
+        android:background="@drawable/calendar"/>
+
+    <Button
+        android:id="@+id/btnLogOut"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="69dp"
+        android:layout_marginTop="495dp"
+        android:layout_marginEnd="81dp"
+        android:layout_marginBottom="188dp"
+        android:background="@drawable/rounded"
+        android:backgroundTint="@color/navy"
+        android:hint="WYLOGUJ SIĘ "
+        android:gravity="center"
+        android:textColorHint="@color/white" />
+
+
+</RelativeLayout>
+
+
+
+
+
