@@ -46,7 +46,7 @@ public class ForgotPassword extends AppCompatActivity {
         if (email.isEmpty ()) {
             emailEdit.setError ( "Wpisz e-mail" );
             emailEdit.requestFocus ();
-            returnn;
+            return;
         }
         if (Patterns.EMAIL_ADDRESS.matcher ( email ).matches ()) {
             emailEdit.setError ( "Proszę podać poprawny adres e-mail" );
